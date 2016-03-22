@@ -57,7 +57,7 @@ public class Frame1 {
 		btnNewButton.setBounds(41, 57, 152, 23);
 		frame.getContentPane().add(btnNewButton);
 		
-		lblMessage = new JLabel("");
+		lblMessage = new JLabel("Static message will change when clicking Display button");
 		lblMessage.setBounds(41, 91, 319, 48);
 		frame.getContentPane().add(lblMessage);
 	}
